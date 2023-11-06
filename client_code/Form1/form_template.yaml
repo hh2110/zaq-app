@@ -4,7 +4,7 @@ container:
   properties: {html: '@theme:standard-page.html'}
 components:
 - type: ColumnPanel
-  properties: {col_widths: '{}'}
+  properties: {col_widths: '{}', background: 'theme:Secondary'}
   name: content_panel
   layout_properties: {slot: default}
   components: []
@@ -12,3 +12,8 @@ components:
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+- name: label_1
+  properties: {text: ZAQ, icon: 'fa:moon-o'}
+  type: Label
+  layout_properties: {slot: title}
+  data_bindings: []

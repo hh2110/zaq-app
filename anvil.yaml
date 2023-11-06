@@ -11,9 +11,9 @@ services:
 - source: /runtime/services/google.yml
   client_config: {}
   server_config: {}
-package_name: zaq
+package_name: zaq_app
 allow_embedding: false
-name: zaq
+name: zaq-app
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
 metadata: {title: AIMS ZAQ, description: AIMS Donation management -- Zakat & Sadaqa,
