@@ -1,0 +1,14 @@
+container: {type: ColumnPanel}
+components:
+- name: data_grid_1
+  properties:
+    columns:
+    - {id: JKSDUP, title: Name, data_key: name}
+    - {id: VJQQOR, title: Quantity, data_key: quantity}
+  type: DataGrid
+  components:
+  - name: repeating_panel_1
+    properties: {item_template: view_donors.RowTemplate1}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'LBXWPF,KOWEJY'}
+is_package: true

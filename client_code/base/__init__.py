@@ -1,5 +1,6 @@
 from ._anvil_designer import baseTemplate
 from anvil import *
+import anvil.server
 import anvil.google.auth, anvil.google.drive
 from anvil.google.drive import app_files
 import anvil.tables as tables
@@ -9,6 +10,7 @@ import anvil.users
 
 from ..home import home
 from ..add_data import add_data
+from ..view_data import view_data
 
 class base(baseTemplate):
   def __init__(self, **properties):
@@ -42,7 +44,7 @@ class base(baseTemplate):
 
   def view_data_click(self, **event_args):
     """This method is called when the link is clicked"""
-    self.go_to_page(target=home())
+    self.go_to_page(target=view_data())
 
   def reports_click(self, **event_args):
     """This method is called when the link is clicked"""

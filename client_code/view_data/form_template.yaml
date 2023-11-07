@@ -10,24 +10,24 @@ components:
     type: ColumnPanel
     layout_properties: {grid_position: 'TTRWDW,SRZKFB'}
     components:
-    - name: add_donation
-      properties: {text: Add Donation, role: outlined-button, icon: 'fa:money'}
+    - name: view_donations
+      properties: {text: View Donations, role: outlined-button, icon: 'fa:money'}
       type: Button
       layout_properties: {grid_position: 'ETXPKQ,EVVMBX'}
-    - name: add_donor
-      properties: {text: Add Donor, role: outlined-button, icon: 'fa:gift'}
+    - name: view_donors
+      properties: {text: View Donors, role: outlined-button, icon: 'fa:gift'}
       type: Button
       layout_properties: {grid_position: 'ETXPKQ,XHPYJD', full_width_row: false}
-    - name: add_patient
-      properties: {text: Add Zakat Patient, role: outlined-button, icon: 'fa:address-book'}
+    - name: view_patients
+      properties: {text: View Zakat Patients, role: outlined-button, icon: 'fa:address-book'}
       type: Button
       layout_properties: {grid_position: 'QGZZCY,OWSIWW'}
-    - name: add_capital_item
-      properties: {text: Add Capital Expense, role: outlined-button, icon: 'fa:hospital-o'}
+    - name: view_capital_items
+      properties: {text: View Capital Expenses, role: outlined-button, icon: 'fa:hospital-o'}
       type: Button
       layout_properties: {grid_position: 'QGZZCY,KLMUXV'}
-    - name: add_patient_episode
-      properties: {text: Add Patient Episode, role: outlined-button, icon: 'fa:medkit'}
+    - name: view_patient_episodes
+      properties: {text: View Patient Episodes, role: outlined-button, icon: 'fa:medkit'}
       type: Button
       layout_properties: {grid_position: 'BPZLDP,YEOABM'}
     - name: spacer_1

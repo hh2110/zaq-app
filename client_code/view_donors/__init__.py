@@ -1,4 +1,4 @@
-from ._anvil_designer import homeTemplate
+from ._anvil_designer import view_donorsTemplate
 from anvil import *
 import anvil.server
 import anvil.google.auth, anvil.google.drive
@@ -8,7 +8,7 @@ import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
 
-class home(homeTemplate):
+class view_donors(view_donorsTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
