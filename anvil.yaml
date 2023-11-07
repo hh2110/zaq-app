@@ -49,5 +49,8 @@ db_schema:
     - name: signed_up
       admin_ui: {order: 7, width: 200}
       type: datetime
+    - name: role
+      admin_ui: {width: 200, order: 8}
+      type: string
     title: Users
 renamed: true
