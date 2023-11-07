@@ -1,0 +1,12 @@
+container: {type: ColumnPanel}
+components:
+- name: image_1
+  properties: {source: _/theme/AIMS-Sugar-Hospital-Kid-Patients-03-1024x613.jpg, height: 300}
+  type: Image
+  layout_properties: {grid_position: 'OKHOBR,DVRKRQ'}
+- name: welcome_message
+  properties: {content: Welcome to the AIMS **ZAQ** application -- our Donor Management System,
+    format: markdown, align: center, font: '', font_size: 28}
+  type: RichText
+  layout_properties: {grid_position: 'EJGEOZ,QCYOBC'}
+is_package: true

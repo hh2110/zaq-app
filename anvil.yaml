@@ -11,6 +11,7 @@ services:
 - source: /runtime/services/google.yml
   client_config: {}
   server_config: {}
+startup: {type: form, module: base}
 package_name: zaq_app
 allow_embedding: false
 name: zaq-app
@@ -18,7 +19,7 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-sandb
   server_spec: null}
 metadata: {title: AIMS ZAQ, description: AIMS Donation management -- Zakat & Sadaqa,
   logo_img: 'asset:aims-logo.jpg'}
-startup_form: Form1
+startup_form: null
 db_schema:
   users:
     client: none
