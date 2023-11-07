@@ -20,3 +20,24 @@ components:
   properties: {}
   type: ColumnPanel
   layout_properties: {slot: default}
+- name: column_panel_1
+  properties: {}
+  type: ColumnPanel
+  layout_properties: {slot: left-nav}
+  components:
+  - name: dashboard
+    properties: {text: Dashboard}
+    type: Link
+    layout_properties: {grid_position: 'ERPUEE,LTATXG'}
+  - name: add_data
+    properties: {text: Add Data}
+    type: Link
+    layout_properties: {grid_position: 'ZLYVAQ,OXYQXC'}
+  - name: view_data
+    properties: {text: View Data}
+    type: Link
+    layout_properties: {grid_position: 'DEXBIW,OFRSCY'}
+  - name: reports
+    properties: {text: Reports}
+    type: Link
+    layout_properties: {grid_position: 'CVZJTN,UBYRRD'}
