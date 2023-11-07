@@ -24,12 +24,9 @@ components:
   properties: {}
   type: ColumnPanel
   layout_properties: {slot: left-nav}
-  components:
-  - name: add_data
-    properties: {text: Add Data, role: outlined-button}
-    type: Button
-    layout_properties: {grid_position: 'LBPXYU,PGWMSX'}
-  - name: view_data
-    properties: {text: View Data, role: outlined-button}
-    type: Button
-    layout_properties: {grid_position: 'ALXOBP,VEOWHU'}
+  components: []
+- name: add_data
+  properties: {icon: 'fa:database', text: Add Data}
+  type: Link
+  layout_properties: {slot: left-nav}
+  event_bindings: {click: add_data_click}
